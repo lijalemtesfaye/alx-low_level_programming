@@ -14,36 +14,33 @@
  * You can only use putchar five times maximum in your code
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
- * Return: 0
  */
 int main(void)
 {
-	int c;
+	int k;
 	int d = 0;
 
 	while (d < 10)
 	{
-		c = 0;
-		while (c < 10)
+		k = 0;
+		while (k < 10)
 		{
-			if (d != c && d < c)
+			if (d != k && d < k)
 			{
 				putchar('0' + d);
-				putchar('0' + c);
+				putchar('0' + k);
 
-				if (c + d != 17)
+				if (k + d != 17)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
 
-			c++;
+			k++;
 		}
 		d++;
 	}
 	putchar('\n');
 	return (0);
 }
-Footer
-
