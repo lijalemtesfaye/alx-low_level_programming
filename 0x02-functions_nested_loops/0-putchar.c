@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * main - prints _putchar, fllowd by a new lines.
- *
- * Return: return 0
- */
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-	char abc[8] = "_putchar";
+	char lijalem[10] = "_putchar";
 
-	int c;
+	int i;
 
-	for (c = 0; c < 8; c++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(abc[c]);
+		_putchar(lijalem[i]);
 	}
-	_putchar(8);
+	_putchar(10);
 	return (0);
 }
