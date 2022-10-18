@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	char lij[] = "_putchar";
+	char lij[8] = "_putchar";
 
-	int count;
+	int i;
 
-	for (count = 0; count < 8; count++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(lij[count]);
+		_putchar(lij[i]);
 	}
 	_putchar('\n');
 	return (0);
