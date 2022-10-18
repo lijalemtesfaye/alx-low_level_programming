@@ -1,21 +1,23 @@
-#include "holberton.h"
+#include "main.h"
+
 
 /**
- * main - Print "_putchar"
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: nothing, return void
  */
 
 int main(void)
 {
-	int i = 0;
-	char lij[] = "_putchar";
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	while (i < 8)
-	{
-		_putchar(lij[i]);
-		i++;
-	}
-	_putchar('\n');
-	return (0);
+return (0);
 }
