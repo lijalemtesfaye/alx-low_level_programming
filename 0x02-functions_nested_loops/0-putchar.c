@@ -1,23 +1,18 @@
 #include "main.h"
-
-
 /**
- * main - Entry point
- *
- * Return: nothing, return void
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
-
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+	char lij[] = "_putchar";
 
-return (0);
+	int count;
+
+	for (count = 0; count < 8; count++)
+	{
+		_putchar(lij[count]);
+	}
+	_putchar('\n');
+	return (0);
 }
