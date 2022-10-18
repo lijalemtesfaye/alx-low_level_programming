@@ -1,20 +1,21 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
-*main - function prints text as output
-*
-*Return:return 0
-*/
+ * main - Print "_putchar"
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	char lijalem[10] = "_putchar";
+	int i = 0;
+	char lij[] = "_putchar";
 
-	int i;
-
-	for (i = 0; i < 8; i++)
+	while (i < 8)
 	{
-		_putchar(lijalem[i]);
+		_putchar(lij[i]);
+		i++;
 	}
-	_putchar(10);
+	_putchar('\n');
 	return (0);
 }
