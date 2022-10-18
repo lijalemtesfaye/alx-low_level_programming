@@ -1,1 +1,1 @@
-C - Functions, nested loops Excercise and solution
+C-Functions,nested_loops_Excercise and solution
