@@ -3,12 +3,11 @@
 /**
  * main - prints _putchar, fllowd by a new lines.
  *
- * Return: Always 0 (Success).
+ * Return: return 0
  */
-
 int main(void)
 {
-	char abc[] = "_putchar";
+	char abc[8] = "_putchar";
 
 	int c;
 
@@ -16,6 +15,6 @@ int main(void)
 	{
 		_putchar(abc[c]);
 	}
-	_putchar('\n');
+	_putchar(8);
 	return (0);
 }
