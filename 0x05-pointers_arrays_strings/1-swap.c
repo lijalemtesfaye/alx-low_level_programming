@@ -1,6 +1,4 @@
-nclude "main.h"
-
-
+#include "main.h"
 
 /**
  *
@@ -16,21 +14,13 @@ nclude "main.h"
  *
  *       */
 
-
-
 void swap_int(int *a, int *b)
 
 {
-
 		int c;
 
-
-
-			c = 0;
-
-				c = *a;
-
-					*a = *b;
-
-						*b = c;
+		c = 0;
+		c = *a;
+		*a = *b;
+		*b = c;
 }
