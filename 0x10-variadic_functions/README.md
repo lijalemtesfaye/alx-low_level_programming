@@ -1,1 +1,1 @@
-C-Variadic functions Excercise and Solution
+C Varadic function excercise and solution
